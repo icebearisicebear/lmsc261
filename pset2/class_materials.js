@@ -39,3 +39,15 @@ print(num1 / num2);
 print(num1 ** num2); // power
 print(num1 % num2); // remainder
 */
+
+// boolean
+
+
+let amountDrank = prompt('How much did you drink?');
+const drinkingLimit = 8;
+let areYouDrunk = amountDrank >= drinkingLimit;
+
+// ternary operator
+
+let messsageToPrint = areYouDrunk ? 'Go home dumbass.' : 'Kep on partying.';
+print(messsageToPrint);
