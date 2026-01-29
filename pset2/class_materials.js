@@ -9,6 +9,10 @@ const major = 'performance';
 print(major);
 */
 
+
+//strings
+
+/*
 let firstName = 'Peter';
 
 let nameUC = firstName.toUpperCase();
@@ -19,3 +23,17 @@ print(nameLC);
 
 let nameLength = firstName.length;
 print(nameLength);
+*/
+
+
+//numbers
+
+/*
+let num1 = 10; //int
+let num2 = 20.5; //float
+
+print(num1 + num2);
+print(num1 - num2);
+print(num1 * num2);
+print(num1 / num2);
+*/
