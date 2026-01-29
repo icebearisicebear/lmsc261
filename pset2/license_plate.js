@@ -1,5 +1,7 @@
 let plate = prompt('Enter License plate: ');
 let plateLength = plate.length;
+
+// one way to do this
 let isLengthLegal = plate.length <= 6;
 let message = isLengthLegal ? 'Thanks for the order!' : 'Invalid plate.';
 
