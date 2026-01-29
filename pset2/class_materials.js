@@ -42,7 +42,7 @@ print(num1 % num2); // remainder
 
 // boolean
 
-
+/*
 let amountDrank = prompt('How much did you drink?');
 const drinkingLimit = 8;
 let areYouDrunk = amountDrank >= drinkingLimit;
@@ -51,3 +51,4 @@ let areYouDrunk = amountDrank >= drinkingLimit;
 
 let messsageToPrint = areYouDrunk ? 'Go home dumbass.' : 'Kep on partying.';
 print(messsageToPrint);
+*/
