@@ -10,7 +10,7 @@ print(major);
 */
 
 
-//strings
+// strings
 
 /*
 let firstName = 'Peter';
@@ -26,14 +26,16 @@ print(nameLength);
 */
 
 
-//numbers
+// numbers
 
 /*
-let num1 = 10; //int
-let num2 = 20.5; //float
+let num1 = 15; // int
+let num2 = 10; // float
 
 print(num1 + num2);
 print(num1 - num2);
 print(num1 * num2);
 print(num1 / num2);
+print(num1 ** num2); // power
+print(num1 % num2); // remainder
 */
