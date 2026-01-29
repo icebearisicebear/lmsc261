@@ -1,3 +1,3 @@
-let nameToPrint = 'Peter'
-print('Hello, ' + nameToPrint + "!")
+let nameToPrint = 'Peter';
+print('Hello, ' + nameToPrint + '!');
 
