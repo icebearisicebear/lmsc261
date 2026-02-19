@@ -1,3 +1,5 @@
-function greet(phrase, nameToPrint){print(phrase + ', ' + nameToPrint + '!');}
+function greet(phrase, nameToPrint){
+print(phrase + ', ' + nameToPrint + '!');
+}
 
 greet('Hello', 'Peter');
