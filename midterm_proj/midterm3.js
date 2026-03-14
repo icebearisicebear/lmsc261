@@ -147,6 +147,7 @@ const drawing = p5 => {
             })
         }
 
+        //draw cubes
         for(const i of cubes){
             p5.stroke(200,0,0)
             drawCube(i.center, i.size, i.scale)
