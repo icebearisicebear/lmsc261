@@ -1,9 +1,10 @@
 import tkinter as tk
 root = tk.Tk()
 root.geometry("400x300")
+
+
 #Logic
 SPONGE_LIMIT = .5
-
 def calculate_sponge_needed():
     cups_spilled = sponge_entry.get()
     sponge_needed = int(cups_spilled) / SPONGE_LIMIT
@@ -11,11 +12,9 @@ def calculate_sponge_needed():
     display_label.config(text = format_text)
 
 
-
 #UI
 sponge_entry = tk.Entry(root)
 sponge_entry.pack()
-
 submit_button = tk.Button(root, text = "Calculate", command = calculate_sponge_needed)
 submit_button.pack()
 
